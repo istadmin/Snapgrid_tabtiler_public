@@ -1,4 +1,4 @@
-# Privacy Policy — HBDApp01
+# Privacy Policy & Terms of Service — HBDApp01
 
 **Effective date:** June 16, 2026  
 **Last updated:** June 16, 2026
@@ -56,6 +56,27 @@ You have full control over your data and the permissions granted to the App. You
 Because the App does not store your Page tokens or personal profile data on a persistent database server, removing the App from your Facebook account settings automatically terminates all access and deletes the connection. 
 
 If you believe any cached information or configuration remains, or if you have specific data deletion inquiries, you can request manual deletion of any associated metadata by opening an issue on our [GitHub repository](https://github.com/istadmin/Snapgrid_tabtiler_public). We will process and confirm your request within 3 business days.
+
+## Terms of Service
+
+Welcome to HBDApp01. By authorizing and using this App to publish content to your Facebook Pages, you agree to comply with and be bound by the following Terms of Service:
+
+### 1. Acceptance of Terms
+By connecting the App to your Facebook account, you acknowledge that you have read, understood, and agreed to these Terms. If you do not agree with any part of these Terms, you must not authorize or use the App.
+
+### 2. User Responsibilities & Conduct
+- **Page Authorization:** You represent and warrant that you are the authorized administrator or owner of the Facebook Pages connected to the App, with full legal rights to publish content on their behalf.
+- **Content Guidelines:** You are solely responsible for any text, links, media, or other content published to Facebook through the App. All content must comply with [Facebook's Community Standards](https://www.facebook.com/communitystandards/) and Terms of Service.
+- **Prohibited Content:** You agree not to use the App to publish content that is illegal, abusive, harassing, defamatory, or violates any third-party intellectual property rights.
+
+### 3. Disclaimer of Warranties
+The App is provided on an "as is" and "as available" basis without any warranties of any kind, whether express or implied. We do not guarantee that the App will be uninterrupted, timely, secure, or error-free, or that connection to the Facebook APIs will always be functional.
+
+### 4. Limitation of Liability
+To the maximum extent permitted by law, the developer of the App shall not be liable for any direct, indirect, incidental, special, consequential, or exemplary damages, including but not limited to loss of profits, goodwill, data, or other intangible losses resulting from your use of or inability to use the App.
+
+### 5. Termination of Service
+We reserve the right to modify, suspend, or terminate the App or your access to it at any time, with or without notice. You may terminate your agreement to these Terms at any time by revoking the App's permissions in your Facebook App settings.
 
 ## Children's Privacy
 
