@@ -1,74 +1,225 @@
 ---
 title: Privacy Policy for HBDApp01
 ---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy — HBDApp01</title>
+    <style>
+        :root {
+            --bg-color: #f8f9fa;
+            --card-bg: #ffffff;
+            --text-color: #343a40;
+            --heading-color: #212529;
+            --accent-color: #1877f2; /* Facebook Blue */
+            --border-color: #dee2e6;
+            --shadow: 0 4px 6px rgba(0, 0, 0, 0.05), 0 1px 3px rgba(0, 0, 0, 0.1);
+            --font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
 
-# Privacy Policy — HBDApp01
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg-color: #121212;
+                --card-bg: #1e1e1e;
+                --text-color: #e0e0e0;
+                --heading-color: #ffffff;
+                --accent-color: #4c8bf5;
+                --border-color: #2d2d2d;
+                --shadow: 0 4px 6px rgba(0, 0, 0, 0.3), 0 1px 3px rgba(0, 0, 0, 0.5);
+            }
+        }
 
-**Effective date:** June 16, 2026  
-**Last updated:** June 16, 2026
+        body {
+            font-family: var(--font-family);
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            margin: 0;
+            padding: 40px 20px;
+            display: flex;
+            justify-content: center;
+        }
 
-## Introduction
+        .container {
+            max-width: 800px;
+            width: 100%;
+            background-color: var(--card-bg);
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: var(--shadow);
+            border: 1px solid var(--border-color);
+        }
 
-HBDApp01 ("the App") is a Facebook integration tool designed to help you publish content to your Facebook Pages. This privacy policy explains how the App accesses, collects, stores, uses, and shares information in connection with your use of the App and your Facebook Page.
+        h1 {
+            color: var(--heading-color);
+            font-size: 2.2rem;
+            margin-top: 0;
+            margin-bottom: 10px;
+            border-bottom: 2px solid var(--border-color);
+            padding-bottom: 15px;
+        }
 
-## Data Collection and Processing
+        h2 {
+            color: var(--heading-color);
+            font-size: 1.5rem;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 8px;
+        }
 
-To perform its core functions (publishing posts to your Facebook Page), the App interacts with the Facebook Graph API and accesses certain user and Page data.
+        h3 {
+            color: var(--heading-color);
+            font-size: 1.15rem;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
 
-### 1. Facebook Permissions Requested
-The App may request the following permissions during the Facebook Login and authorization flow:
-- `public_profile`: Access to basic profile information (such as name and profile picture) to identify and authenticate you as the page administrator.
-- `pages_show_list`: Access to the list of Pages you manage to allow you to select which Page(s) you want to publish content to.
-- `pages_read_engagement`: Access to basic Page information and analytics to verify the status of your Page.
-- `pages_manage_posts`: Access to publish content (posts, images, links) to your Page on your behalf.
+        p {
+            margin-top: 0;
+            margin-bottom: 15px;
+        }
 
-### 2. Information We Access
-- **Basic Profile Data:** We may temporarily access your Facebook User ID, name, and profile picture to personalize the connection interface.
-- **Page Access Tokens:** The App requests and uses Facebook Page Access Tokens. These tokens are security credentials that allow the App to post content to your specific Facebook Page on your behalf.
-- **Post Content:** The App processes the text, links, or media that you choose to publish to your Facebook Page.
+        .dates {
+            font-size: 0.9rem;
+            color: #6c757d;
+            margin-bottom: 30px;
+        }
 
-## How We Use Your Data
+        @media (prefers-color-scheme: dark) {
+            .dates {
+                color: #a0a0a0;
+            }
+        }
 
-We use the accessed information strictly for the following purposes:
-- **Authentication:** To confirm you are the administrator of the Facebook Page and authorized to publish content to it.
-- **Publishing Content:** To transmit and post the content you create directly to your Facebook Page via the Facebook Graph API.
-- **App Operation:** To display the list of pages you manage so you can choose where to publish.
+        ul, ol {
+            margin-top: 0;
+            margin-bottom: 20px;
+            padding-left: 25px;
+        }
 
-The App does **not** use your data for advertising, marketing, profiling, or any other commercial purpose.
+        li {
+            margin-bottom: 8px;
+        }
 
-## Data Storage and Security
+        code {
+            font-family: SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;
+            background-color: rgba(0, 0, 0, 0.05);
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-size: 0.9em;
+        }
 
-- **No Server-Side Storage:** The App does not host a centralized database of your personal information, Page tokens, or browsing history. All authentication tokens are used in memory or stored locally on your device (within your secure local environment or browser storage) to maintain your session.
-- **Security:** We use standard, secure communication channels (HTTPS) to transmit all API requests directly to Facebook's servers.
+        @media (prefers-color-scheme: dark) {
+            code {
+                background-color: rgba(255, 255, 255, 0.1);
+            }
+        }
 
-## Data Sharing and Disclosure
+        a {
+            color: var(--accent-color);
+            text-decoration: none;
+            transition: color 0.2s ease;
+        }
 
-We respect your privacy and do **not** sell, trade, lease, or share your personal information or Facebook Page data with any third-party services, advertisers, or external organizations. All data remains strictly within the secure loop between your device and Facebook's official APIs.
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Privacy Policy — HBDApp01</h1>
+        
+        <div class="dates">
+            <strong>Effective date:</strong> June 16, 2026<br>
+            <strong>Last updated:</strong> June 16, 2026
+        </div>
 
-## Data Deletion and Revocation (Facebook Data Deletion Request Instructions)
+        <section>
+            <h2>Introduction</h2>
+            <p>HBDApp01 ("the App") is a Facebook integration tool designed to help you publish content to your Facebook Pages. This privacy policy explains how the App accesses, collects, stores, uses, and shares information in connection with your use of the App and your Facebook Page.</p>
+        </section>
 
-You have full control over your data and the permissions granted to the App. You can request the deletion of your data and revoke the App's access at any time by following these steps:
+        <section>
+            <h2>Data Collection and Processing</h2>
+            <p>To perform its core functions (publishing posts to your Facebook Page), the App interacts with the Facebook Graph API and accesses certain user and Page data.</p>
+            
+            <h3>1. Facebook Permissions Requested</h3>
+            <p>The App may request the following permissions during the Facebook Login and authorization flow:</p>
+            <ul>
+                <li><code>public_profile</code>: Access to basic profile information (such as name and profile picture) to identify and authenticate you as the page administrator.</li>
+                <li><code>pages_show_list</code>: Access to the list of Pages you manage to allow you to select which Page(s) you want to publish content to.</li>
+                <li><code>pages_read_engagement</code>: Access to basic Page information and analytics to verify the status of your Page.</li>
+                <li><code>pages_manage_posts</code>: Access to publish content (posts, images, links) to your Page on your behalf.</li>
+            </ul>
 
-### How to Revoke App Permissions and Delete Connection:
-1. Log into your Facebook account.
-2. Go to **Settings & Privacy** > **Settings**.
-3. In the left-hand menu, click on **Apps and Websites**.
-4. Locate **HBDApp01** and click the **Remove** button next to it.
-5. In the confirmation dialog, you may also choose to delete any posts the App has made on your behalf (optional). Confirm by clicking **Remove**.
+            <h3>2. Information We Access</h3>
+            <ul>
+                <li><strong>Basic Profile Data:</strong> We may temporarily access your Facebook User ID, name, and profile picture to personalize the connection interface.</li>
+                <li><strong>Page Access Tokens:</strong> The App requests and uses Facebook Page Access Tokens. These tokens are security credentials that allow the App to post content to your specific Facebook Page on your behalf.</li>
+                <li><strong>Post Content:</strong> The App processes the text, links, or media that you choose to publish to your Facebook Page.</li>
+            </ul>
+        </section>
 
-### How to Request Manual Data Deletion:
-Because the App does not store your Page tokens or personal profile data on a persistent database server, removing the App from your Facebook account settings automatically terminates all access and deletes the connection. 
+        <section>
+            <h2>How We Use Your Data</h2>
+            <p>We use the accessed information strictly for the following purposes:</p>
+            <ul>
+                <li><strong>Authentication:</strong> To confirm you are the administrator of the Facebook Page and authorized to publish content to it.</li>
+                <li><strong>Publishing Content:</strong> To transmit and post the content you create directly to your Facebook Page via the Facebook Graph API.</li>
+                <li><strong>App Operation:</strong> To display the list of pages you manage so you can choose where to publish.</li>
+            </ul>
+            <p>The App does <strong>not</strong> use your data for advertising, marketing, profiling, or any other commercial purpose.</p>
+        </section>
 
-If you believe any cached information or configuration remains, or if you have specific data deletion inquiries, you can request manual deletion of any associated metadata by opening an issue on our [GitHub repository](https://github.com/istadmin/Snapgrid_tabtiler_public). We will process and confirm your request within 3 business days.
+        <section>
+            <h2>Data Storage and Security</h2>
+            <ul>
+                <li><strong>No Server-Side Storage:</strong> The App does not host a centralized database of your personal information, Page tokens, or browsing history. All authentication tokens are used in memory or stored locally on your device (within your secure local environment or browser storage) to maintain your session.</li>
+                <li><strong>Security:</strong> We use standard, secure communication channels (HTTPS) to transmit all API requests directly to Facebook's servers.</li>
+            </ul>
+        </section>
 
-## Children's Privacy
+        <section>
+            <h2>Data Sharing and Disclosure</h2>
+            <p>We respect your privacy and do <strong>not</strong> sell, trade, lease, or share your personal information or Facebook Page data with any third-party services, advertisers, or external organizations. All data remains strictly within the secure loop between your device and Facebook's official APIs.</p>
+        </section>
 
-The App is not intended for use by children under the age of 13, and we do not knowingly collect or request personal information from children.
+        <section>
+            <h2>Data Deletion and Revocation (Facebook Data Deletion Request Instructions)</h2>
+            <p>You have full control over your data and the permissions granted to the App. You can request the deletion of your data and revoke the App's access at any time by following these steps:</p>
+            
+            <h3>How to Revoke App Permissions and Delete Connection:</h3>
+            <ol>
+                <li>Log into your Facebook account.</li>
+                <li>Go to <strong>Settings & Privacy</strong> &gt; <strong>Settings</strong>.</li>
+                <li>In the left-hand menu, click on <strong>Apps and Websites</strong>.</li>
+                <li>Locate <strong>HBDApp01</strong> and click the <strong>Remove</strong> button next to it.</li>
+                <li>In the confirmation dialog, you may also choose to delete any posts the App has made on your behalf (optional). Confirm by clicking <strong>Remove</strong>.</li>
+            </ol>
 
-## Changes to This Policy
+            <h3>How to Request Manual Data Deletion:</h3>
+            <p>Because the App does not store your Page tokens or personal profile data on a persistent database server, removing the App from your Facebook account settings automatically terminates all access and deletes the connection.</p>
+            <p>If you believe any cached information or configuration remains, or if you have specific data deletion inquiries, you can request manual deletion of any associated metadata by opening an issue on our <a href="https://github.com/istadmin/Snapgrid_tabtiler_public">GitHub repository</a>. We will process and confirm your request within 3 business days.</p>
+        </section>
 
-We may update this Privacy Policy from time to time. Any changes will be posted on this page with an updated "Last updated" date. We encourage you to review this policy periodically.
+        <section>
+            <h2>Children's Privacy</h2>
+            <p>The App is not intended for use by children under the age of 13, and we do not knowingly collect or request personal information from children.</p>
+        </section>
 
-## Contact Us
+        <section>
+            <h2>Changes to This Policy</h2>
+            <p>We may update this Privacy Policy from time to time. Any changes will be posted on this page with an updated "Last updated" date. We encourage you to review this policy periodically.</p>
+        </section>
 
-If you have any questions, concerns, or requests regarding this Privacy Policy or your data, please contact us by opening an issue on the [GitHub repository](https://github.com/istadmin/Snapgrid_tabtiler_public).
+        <section>
+            <h2>Contact Us</h2>
+            <p>If you have any questions, concerns, or requests regarding this Privacy Policy or your data, please contact us by opening an issue on the <a href="https://github.com/istadmin/Snapgrid_tabtiler_public">GitHub repository</a>.</p>
+        </section>
+    </div>
+</body>
+</html>
